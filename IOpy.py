@@ -5,7 +5,7 @@ def write_to_file(filename, content, mode='w'):
 
 
 def way_batter(filename):
-    print('Читаем файл  way_batter')
+    # print('Читаем файл  way_batter')
     with open(filename) as f:
         return f.read()
 
@@ -24,5 +24,6 @@ def read_file(filename):
 if __name__ == '__main__':
     # reading
     # print(way_batter('HomeWorks.txt'))
-    print(read_file('HomeWorks.txt'))
-    write_to_file(filename='NewFile.txt', content='NewLine\n', mode='a') #adds
+    # print(read_file('HomeWorks.txt'))
+    print(way_batter('NewFile.txt'))
+    # write_to_file(filename='NewFile.txt', content='NewLine\n', mode='a') #adds
