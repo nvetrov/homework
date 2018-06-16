@@ -1,3 +1,3 @@
 # homework
-python
-I Love python
+Обучение и еще раз обучение.
+
