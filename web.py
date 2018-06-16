@@ -31,16 +31,7 @@ def get_url():
     print("r.text ->", r.text)
 
 
-def findByStatus(tag):
-    params = {'tags': tag}
-    headers = {'Accept': 'application/json'}
-    # {'Accept':'application/xml'}
-    url = 'http://petstore.swagger.io/v2/pet/findByStatus?status=available'
-    r = requests.get(url, params=params, header=headers)
-    print(r.status_code, r.headers)
-    print(r.content)
 
 
 if __name__ == '__main__':
-    # get_url()
-    findByStatus()
+    get_url()
