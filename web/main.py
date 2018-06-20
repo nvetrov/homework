@@ -1,6 +1,8 @@
 #FLASK_APP=main.py flask run
+# https://pypi.org/project/simple-settings/
 
 from flask import Flask
+
 
 app = Flask(__name__)
 
