@@ -8,6 +8,6 @@ if __name__ == '__main__':
     print('is name:', bool(is_name), is_name)
     is_name = re.match(name_pattern, 'I am just a string.')
     print('is name:', bool(is_name))
-    name_pattern_group = r'My name is (.*)\.'
+    name_pattern_group = r'My name is (.*)\.'  #  r'My name is (.*)\.'
     name = re.findall(name_pattern_group, 'My name is Nikolay.')
     print(name)
